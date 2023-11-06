@@ -40,7 +40,7 @@ export const Images = {
     rectangle04,
     rectangle05,
   },
-  logos: {
+  skills: {
     figmaLogo,
     vsCodeLogo,
     reactLogo,
