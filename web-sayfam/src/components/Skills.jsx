@@ -11,7 +11,7 @@ function Skills() {
       <div className='flex justify-start flex-wrap gap-10 mt-8 mb-4'>
         {texts.skills.map((skill)=>(
           <div className='leading-[4rem] text-center text-[24px]'>
-          <img src= {skill.image} alt=""/>
+          <img className="w-[120px]" src= {skill.image} alt=""/>
           <h3>{skill.title}</h3>
           </div>
         ))}

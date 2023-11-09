@@ -15,7 +15,7 @@ export const Data = {
     },
     skillsTitle: "Yetenekler",
     skills: [
-      {title: "Yetenekler"},
+      
       { image: Images.skills.jsLogo, title: "JAVASCRIPT" },
       { image: Images.skills.reactLogo, title: "REACT" },
       { image: Images.skills.reduxLogo, title: "REDUX" },
@@ -36,7 +36,8 @@ export const Data = {
       edu: "Yeditepe Ünv. Diş Hekimliği 2021",
       roleTitle: "Tercih Ettiği Rol",
       role: "Frontend, UI"
-    }
+    },
+    footer: ["Hadi, gelecek projenizde","birlikte harikalar yaratalım" ]
   },
   en: {
     langSwitch: ["SWITCH TO", " TURKISH"],
@@ -71,7 +72,9 @@ export const Data = {
       { image: Images.skills.nodeLogo, title: "NODE" },
       { image: Images.skills.vsCodeLogo, title: "VSCODE" },
       { image: Images.skills.figmaLogo, title: "FIGMA" },
-    ]
+      {image: Images.skills.tailwindLogo, title: "TAILWIND"}
+    ],
+    footer: ["Let's work together on ", "your next project"]
   }
 };
 

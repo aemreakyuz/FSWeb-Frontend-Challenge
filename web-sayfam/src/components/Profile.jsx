@@ -9,7 +9,7 @@ function Profile() {
    <hr className="h-px my-[4rem] bg-indigo-700 border-0 dark:bg-[#BAB2E7] w-[full]"/>
    <div>
 
-   <h3 className="text-[48px] mb-[2rem]">{texts.profile.title}</h3>   
+   <h3 className="text-[48px] mb-[2rem] dark:text-[#AEBCCF]">{texts.profile.title}</h3>   
    
    <div className="flex-column  gap-[50%] ">
   
@@ -17,9 +17,9 @@ function Profile() {
 
    
    <div className="flex-column  ">
-   <h3 className="text-[30px] mb-8 mt-4">{texts.profile.title}</h3>
-   <div className="flex">
-   <div className="text-weight-600 mr-[5rem] ">
+   <h3 className="text-[30px] mb-8 mt-4 dark:text-[#B7AAFF]">{texts.profile.title}</h3>
+   <div className="flex leading-[36px]">
+   <div className="font-semibold mr-[5rem] ">
    
    <p>{texts.profile.birthDateTitle}</p>
    <p>{texts.profile.locationTitle}</p>
@@ -36,8 +36,8 @@ function Profile() {
    </div>
    </div>
    </div>
-   <div className="w-[50%]">
-    <h3 className="text-[30px] mb-8 mt-4">{texts.profile.aboutTitle}</h3>
+   <div className="w-[50%] leading-[27px]">
+    <h3 className="text-[30px] mb-8 mt-4 dark:text-[#B7AAFF]">{texts.profile.aboutTitle}</h3>
     {texts.profile.about1}
     <div className="h-[2rem]"/>
     {texts.profile.about2}
@@ -53,6 +53,7 @@ function Profile() {
   <div>
 
   </div>
+  <hr className="h-px my-[4rem] bg-indigo-700 border-0 dark:bg-[#BAB2E7] w-[full]"/>
   </div>)
 }
 

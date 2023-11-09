@@ -18,6 +18,7 @@ import reactLogo from "./skills/react-logo.png";
 import reduxLogo from "./skills/redux-logo.png";
 import nodeLogo from "./skills/node-logo_1.png";
 import jsLogo from "./skills/js-logo.png";
+import tailwindLogo from "./skills/tailwindLogo.png";
 
 import githubLogo from "./socials/github.svg";
 import linkedinLogo from "./socials/LinkedIn.svg";
@@ -47,6 +48,7 @@ export const Images = {
     reduxLogo,
     nodeLogo,
     jsLogo,
+    tailwindLogo,
   },
   socials: {
     githubLogo,

@@ -7,8 +7,8 @@ function Projects() {
   const {texts} = useContext(SiteContext)
 
   return ( 
-  <div className="w-[90%] mx-auto">
-  
+  <div className="w-[80%] mx-auto">
+    Projects
   <div>
 
   </div>
