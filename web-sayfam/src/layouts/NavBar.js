@@ -9,7 +9,7 @@ function NavBar() {
   const { theme } = useContext(DarkModeContext);
   const { texts } = useContext(SiteContext);
   return (
-    <div className="flex justify-between w-[80%] mt-6 mx-auto">
+    <div className="flex flex-wrap justify-between w-[80%] mt-6 mx-auto">
       <div className="ellipse-container   ">
         <img
           src={
