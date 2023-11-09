@@ -9,7 +9,7 @@ function Profile() {
    <hr className="h-px my-[4rem] bg-indigo-700 border-0 dark:bg-[#BAB2E7] w-[full]"/>
    <div>
 
-   <h3 className="text-[48px] mb-[2rem] dark:text-[#AEBCCF] m:text-center">{texts.profile.title}</h3>   
+   <h3 className="text-[48px]  dark:text-[#AEBCCF] m:text-center">{texts.profile.title}</h3>   
    
    <div className="flex-column  gap-[50%]  ">
   
