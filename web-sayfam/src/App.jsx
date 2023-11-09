@@ -14,7 +14,7 @@ function App() {
   
   const {theme} = useContext(DarkModeContext)
   const {lang} = useContext(SiteContext)
-  
+
   const skillsData = [
     { image: Images.skills.jsLogo, title: "JAVASCRIPT" },
     { image: Images.skills.reactLogo, title: "REACT" },
@@ -24,7 +24,8 @@ function App() {
     { image: Images.skills.figmaLogo, title: "FIGMA" },
   ];
   return (
-    <div className={`w-full pt-2 ${theme === 'DARK' ? 'bg-[#252128;] text-white' : 'bg-gray-100 text-[#252128;]'}`}>
+    <div className={`w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
+      
       <SwitchBar/>
       <NavBar/>
       <Hero />
@@ -32,7 +33,8 @@ function App() {
       <Profile />
       <Projects />
       <Footer />
-    </div>
+      </div>
+   
   );
 }
 

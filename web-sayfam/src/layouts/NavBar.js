@@ -9,8 +9,8 @@ function NavBar() {
   const { theme } = useContext(DarkModeContext);
   const { texts } = useContext(SiteContext);
   return (
-    <div className="flex justify-between w-[90%] mt-6">
-      <div className="ellipse-container  ml-16 ">
+    <div className="flex justify-between w-[80%] mt-6 mx-auto">
+      <div className="ellipse-container   ">
         <img
           src={
             theme === "DARK"
@@ -32,14 +32,14 @@ function NavBar() {
           {texts.nav.skills}
         </button>
         <button className={` ${theme === "DARK" ? "text-[#6B7280]" : ""}`}>
-          Projects
+          {texts.nav.projects}
         </button>
         <button
           className={`border-2 py-[0.75rem] px-[2rem] rounded-md text-indigo-800 border-indigo-800 ${
             theme === "DARK" ? "bg-white text-[#3730A3]" : ""
           }`}
         >
-          Hire Me
+          {texts.nav.hire}
         </button>
       </div>
     </div>

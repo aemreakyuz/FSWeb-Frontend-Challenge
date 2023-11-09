@@ -1,5 +1,6 @@
 .ellipse-container {
     position: relative;
+    width: 55px;
     display: inline-block;
 }
 

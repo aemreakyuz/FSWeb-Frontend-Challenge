@@ -12,8 +12,8 @@ function SwitchBar() {
     
 
   return (
-    <div className='w-[90%] pt-2 '>
-        <div className='flex  justify-end gap-4 items-center'>
+    <div className='w-[80%] pt-2 flex justify-end mx-auto'>
+        <div className='flex   gap-4 items-center'>
             <div className='toggle-switch '>
                 <label className='flex'>
                     <input type ="checkbox" onClick= {toggleTheme}/>

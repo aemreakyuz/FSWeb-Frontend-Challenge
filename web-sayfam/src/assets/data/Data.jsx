@@ -1,3 +1,6 @@
+
+import { Images } from "../photos/Images";
+
 export const Data = {
   tr: {
     langSwitch: ["İNGİLİZCE", "'YE GEÇ"],
@@ -7,18 +10,12 @@ export const Data = {
       hire: "Bana Ulaşın!"
     },
     skills: [
-      {
-        name: "JavaScript",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      },
-      {
-        name: "React.js",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      },
-      {
-        name: "Node.js",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      }
+      { image: Images.skills.jsLogo, title: "JAVASCRIPT" },
+      { image: Images.skills.reactLogo, title: "REACT" },
+      { image: Images.skills.reduxLogo, title: "REDUX" },
+      { image: Images.skills.nodeLogo, title: "NODE" },
+      { image: Images.skills.vsCodeLogo, title: "VSCODE" },
+      { image: Images.skills.figmaLogo, title: "FIGMA" },
     ]
   },
   en: {
@@ -29,18 +26,14 @@ export const Data = {
       hire: "Hire Me"
     },
     skills: [
-      {
-        name: "JavaScript",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      },
-      {
-        name: "React.js",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      },
-      {
-        name: "Node.js",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      }
+      { image: Images.skills.jsLogo, title: "JAVASCRIPT" },
+      { image: Images.skills.reactLogo, title: "REACT" },
+      { image: Images.skills.reduxLogo, title: "REDUX" },
+      { image: Images.skills.nodeLogo, title: "NODE" },
+      { image: Images.skills.vsCodeLogo, title: "VSCODE" },
+      { image: Images.skills.figmaLogo, title: "FIGMA" },
     ]
   }
 };
+
+
