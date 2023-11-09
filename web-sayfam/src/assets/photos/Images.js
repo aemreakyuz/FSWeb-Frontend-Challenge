@@ -3,6 +3,8 @@ import profilePhoto from "./profilephoto/foto.png";
 import ellipse01 from "./shapes/Ellipse_10.svg";
 import ellipse02 from "./shapes/Ellipse_11.svg";
 import ellipse03 from "./shapes/Ellipse_12.svg";
+import ellipse from "./shapes/Ellipse1.svg";
+import ellipse2 from "./shapes/Ellipse2.svg";
 
 import rectangle01 from "./shapes/Rectangle_2.svg";
 import rectangle02 from "./shapes/Rectangle_18.svg";
@@ -20,15 +22,13 @@ import jsLogo from "./skills/js-logo.png";
 import githubLogo from "./socials/github.svg";
 import linkedinLogo from "./socials/LinkedIn.svg";
 
-import macbookImg from "./projects/macbookImg.png";
-import project1 from "./projects/project1.png";
-import project2 from "./projects/project2.png";
-
 export const Images = {
   profile: {
     profilePhoto,
   },
   ellipses: {
+    ellipse,
+    ellipse2,
     ellipse01,
     ellipse02,
     ellipse03,
@@ -52,9 +52,5 @@ export const Images = {
     githubLogo,
     linkedinLogo,
   },
-  projects: {
-    macbookImg,
-    project1,
-    project2,
-  },
+  projects: {},
 };

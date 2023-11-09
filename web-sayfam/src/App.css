@@ -1,14 +1,4 @@
-.App {
-  width:80%;
-  margin: auto;
-  border: 1px solid black;
-}
-.header{
-  background-color: #F4F4F4;
-  min-height:30vh;
-  display: flex;
-  justify-content: flex-end;
-}
+
 .skills{
   position: relative;
   display: flex;
@@ -20,6 +10,7 @@
   max-width: 100%;
   min-height:30vh;
   padding: 0 1.2rem 0 1.2rem;
+  line-height: 2.5rem;
 }
 .skills__title{
   font-family: Inter;
@@ -28,5 +19,6 @@ margin-top: 3rem;
 color: #0A0A14;
 font-size: 3rem;
 font-weight: 500;
+
 
 }
