@@ -6,9 +6,9 @@ function Skills() {
   const{texts} = useContext(SiteContext)
 
   return (
-    <div className='w-[80%] m-auto '>
-      <h2 className='text-[48px] dark:text-[#AEBCCF]'>{texts.skillsTitle}</h2>
-      <div className='flex justify-start flex-wrap gap-10 mt-8 mb-4'>
+    <div className='w-[80%] m-auto mt-12'>
+      <h2 className='text-[48px] dark:text-[#AEBCCF] m:text-center'>{texts.skillsTitle}</h2>
+      <div className='flex justify-start flex-wrap gap-10 mt-8 mb-4  m:w-full m:justify-center '>
         {texts.skills.map((skill)=>(
           <div className='leading-[4rem] text-center text-[24px]'>
           <img className="w-[120px]" src= {skill.image} alt=""/>

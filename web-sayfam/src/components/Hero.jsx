@@ -14,19 +14,19 @@ function Hero() {
         <h1 className="text-indigo-800 dark:text-[#B7AAFF]">Emre Akyüz</h1>
         
       </div>
-    <div className="flex flex-wrap justify-between mt-8">
-      <div className="w-[57%]">
+    <div className="flex flex-wrap justify-between mt-8 m:w-full m:justify-center">
+      <div className="w-[57%] m:w-screen m:text-center ">
           <h2 className="text-gray-800 dark:text-[#AEBCCF] text-[4.5rem] leading-[4.5rem] ">{texts.hero.title[0]} <br/>
           {texts.hero.title[1]}</h2>
           <div className="h-[2rem]"/>
           <p className="text-[1.125rem] leading-[1.75rem]">{texts.hero.description}</p>
           <div className="h-[2rem]"/>
-          <div className="flex gap-4 text-[18px]">
-          <button className="button-hire text-[#E1E1FF] border-indigo-800 bg-indigo-800 dark:bg-[#E1E1FF] dark:text-indigo-800">
-            {texts.nav.hire}</button>
-          <a href="https://github.com/aemreakyuz" className=" button-light flex items-center justify-center gap-2 dark:text-[#E1E1FF] dark:border-[#E1E1FF]" ><img className="w-[24px]" src={Images.socials.githubLogo} alt=""/> Github</a>
+          <div className="flex gap-4 text-[18px] m:justify-center">
+          <a href="mailto:aemreakyuz@gmail.com" className="button-hire  text-[#E1E1FF] border-indigo-800 bg-indigo-800 dark:bg-[#E1E1FF] dark:text-indigo-800">
+            {texts.nav.hire}</a>
+          <a href= "https://github.com/aemreakyuz" className=" button-light flex items-center justify-center gap-2 dark:text-[#E1E1FF] dark:border-[#E1E1FF]" ><img className="w-[24px]" src={Images.socials.githubLogo} alt=""/> Github</a>
           <a href="https://www.linkedin.com/in/emreakyuz1/" className=" button-light flex items-center justify-center gap-2 dark:text-[#E1E1FF] dark:border-[#E1E1FF]">
-          <img className="w-[24px] h-[25px] fill-[#3730A3]" src={Images.socials.linkedinLogo} alt=""/> LinkedIn</a>
+          <img className="w-[24px] h-[25px]   fill-[#3730A3]" src={Images.socials.linkedinLogo} alt=""/> LinkedIn</a>
           </div>
       </div>
           <img className="pl-4 pt-4 w-[29.75rem]" src={Images.profile.profilePhoto} alt=""/>

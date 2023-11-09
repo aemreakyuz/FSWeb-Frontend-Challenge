@@ -11,7 +11,7 @@ function Footer() {
       </h3>
       <div className="flex justify-between">
         <div>
-      👉<a className=" ml-2 underline"href="mailto:aemreakyuz@gmail.com">aemreakyuz@gmail.com</a>
+      👉<a className=" ml-2 underline" href="mailto:aemreakyuz@gmail.com">aemreakyuz@gmail.com</a>
       </div>
       <div className="flex gap-4"> 
         <a className="text-[#17D18B]" href="https://github.com/aemreakyuz">GitHub</a>
