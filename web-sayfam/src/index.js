@@ -5,14 +5,18 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { SiteContextProvider } from "./context/SiteContext";
 import { DarkModeContextProvider } from "./context/DarkModeContext";
+import { Provider } from "react-redux";
+import { myStore } from "./store/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <DarkModeContextProvider>
-    <SiteContextProvider>
-      <App />
-    </SiteContextProvider>
-  </DarkModeContextProvider>
+  <Provider store={myStore}>
+    <DarkModeContextProvider>
+      <SiteContextProvider>
+        <App />
+      </SiteContextProvider>
+    </DarkModeContextProvider>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

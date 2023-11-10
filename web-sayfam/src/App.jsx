@@ -6,16 +6,22 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import SwitchBar from "./components/SwitchBar";
-import NavBar from "./layouts/NavBar";
+import NavBar from "./components/NavBar";
 
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { DarkModeContext } from "./context/DarkModeContext";
 import { SiteContext } from "./context/SiteContext";
+import { fetchAnother } from "./store/actions.js/dataActions";
+import { useDispatch } from "react-redux";
+
 function App() {
   
   const {toggleTheme} = useContext(DarkModeContext)
   
-
+  const dispatch= useDispatch();
+  useEffect(() => {
+    dispatch(fetchAnother());
+}, [dispatch]);
   return (
     <div  className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
      

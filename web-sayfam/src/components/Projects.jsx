@@ -10,16 +10,16 @@ function Projects() {
   return ( 
   <div id="projects-section" className="w-[80%]  mx-auto mb-[7rem]">
     <h3 className="text-[48px] mb-8 dark:text-[#AEBCCF] m:text-center light-text-header" >{texts.projectsTitle}</h3>
-    <div className="flex justify-between flex-wrap gap-4 m:justify-center">
+    <div className="flex justify-between flex-wrap gap-8 m:justify-center">
     {texts.projects.map((project, index)=>(
-      <div  className="w-[300px] leading-[20px]">
-      <img  className="h-[180px]" src={project.image} alt={project.title}  key={index}/>
+      <div key={index} className="w-[300px] leading-[20px]">
+      <img  className="h-[180px]" src={project.image} alt={project.title}  />
       <div className=""> 
         <a href={project.url}  key={index} className="light-text-header-colored dark:text-[#CFCBFF] py-4 inline-flex">{project.title} </a>
-        <p className="mb-8">{project.description}</p>
+        <p className="mb-8" >{project.description}</p>
         <div className="flex gap-4 mb-8 w-[300px]  flex-wrap">
         {project.skills.map((skill, index) => (
-  <span className="flex-row px-[18px] py-[6px] rounded border-solid border-2 border-[#3730A3;] text-[#3730A3] dark:border-[#8F88FF] dark:bg-[#383838] dark:text-[#8F88FF]" key={index}>{skill}</span>
+  <span className="flex-row  px-[18px] py-[6px] rounded border-solid border-2 border-[#3730A3;] text-[#3730A3] dark:border-[#8F88FF] dark:bg-[#383838] dark:text-[#8F88FF]" key={index}>{skill}</span>
 ))}
 </div>
 <div className="flex justify-between underline text-[#3730A3;] dark:text-[#8F88FF] ">

@@ -10,8 +10,6 @@ export const SiteContextProvider = ({children}) =>{
     const localizedTexts = Data;
     const texts = localizedTexts[lang];
 
-    
-    
     const toggleLang = () => {
         const newLang = lang === "en" ? "tr" : "en";
         setLang(newLang);
