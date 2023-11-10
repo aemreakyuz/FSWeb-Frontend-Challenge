@@ -40,9 +40,9 @@ export const Data = {
     },
     projectsTitle:"Projeler",
     projects: [
-      {title:"Pizza Sipariş Sitesi", image: Images.projects.pizzaProject ,description:"Bir pizza sipariş platformu düşünün. Burada müşteriler, pizza için çeşitli ek malzemeler, hamurun kalınlığını ve pizzanın boyutunu seçebilirler. Müşteri adı ve özel notlar girildikten sonra, sipariş miktarı belirlenir ve sipariş verilir. Son aşamada ise, müşterilere siparişlerinin detaylı bir özeti sunulur.", skills:["react", "axios", "Yup", "router"], github:"GitHUB", view:"View Site", url:"https://workintech.com.tr/" },
-      {title:"Fav Film Listesi" , image :Images.projects.movieProject , description: "İzleme listenize eklenecek filmler... Bu liste, seçtiğiniz filmleri eklemenizi ve istediğiniz zaman kaldırmanızı sağlar. Böylece, ne izlemek istediğinize karar verirken veya zamanınız olduğunda, seçkin film koleksiyonunuzdan seçim yapabilirsiniz. Her an, yeni bir maceraya dalmanız için listeniz sizi bekliyor olacak.", skills: ["react","redux", "axios", "Yup", "router"], github:"GitHUB", view:"View Site", url:"https://movie-watchlist-blush.vercel.app" }
-      ,{title:"Netflix Clone", image:Images.projects.netflixClone, description:"Netflix.v2",skills:[ "react","redux", "contextAPI", "router", "axios"], github:"GitHUB", view:"View Site", url:"https://netflix-clone-redux-amber.vercel.app/"   }
+      {title:"Pizza Sipariş Sitesi", image: Images.projects.pizzaProject ,description:"Bir pizza sipariş platformu düşünün. Burada müşteriler, pizza için çeşitli ek malzemeler, hamurun kalınlığını ve pizzanın boyutunu seçebilirler. Müşteri adı ve özel notlar girildikten sonra, sipariş miktarı belirlenir ve sipariş verilir. Son aşamada ise, müşterilere siparişlerinin detaylı bir özeti sunulur.", skills:["react", "axios", "Yup", "router"], github:"github", view:"View Site", url:"https://workintech.com.tr/" },
+      {title:"Fav Film Listesi" , image :Images.projects.movieProject , description: "İzleme listenize eklenecek filmler... Bu liste, seçtiğiniz filmleri eklemenizi ve istediğiniz zaman kaldırmanızı sağlar. Böylece, ne izlemek istediğinize karar verirken veya zamanınız olduğunda, seçkin film koleksiyonunuzdan seçim yapabilirsiniz. Her an, yeni bir maceraya dalmanız için listeniz sizi bekliyor olacak.", skills: ["react","redux", "axios", "Yup", "router"], github:"github", view:"View Site", url:"https://movie-watchlist-blush.vercel.app" }
+      ,{title:"Netflix Clone", image:Images.projects.netflixClone, description:"Netflix.v2",skills:[ "react","redux", "contextAPI", "router", "axios"], github:"github", view:"View Site", url:"https://netflix-clone-redux-amber.vercel.app/"   }
     ]
     ,
     footer: ["Hadi, gelecek projenizde","birlikte harikalar yaratalım" ]
@@ -56,14 +56,14 @@ export const Data = {
     },
     hero:{
       title: ["Creative Thinker" , "Minimalism Lover"],
-      description: "Hi, I'm Emre. I'm a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me."
+      description: "Hi, I'm Emre. I'm a software developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me."
     },
     profile: {
       title: "Profile",
       aboutTitle: "About Me",
       locationTitle: "Location",
       location: "Istanbul, Tr",
-      about1: "Hi, I'm Emre, a full-stack developer and a dentist from Yeditepe University. My journey from dentistry to tech has sharpened my precision and passion for detail, qualities I bring to every web development project. I specialize in JavaScript, React, and Node.js, with a focus on creating seamless, user-friendly websites.",
+      about1: "Hi, I'm Emre, a software developer and a dentist from Yeditepe University. My journey from dentistry to tech has sharpened my precision and passion for detail, qualities I bring to every web development project. I specialize in JavaScript, React, and Node.js, with a focus on creating seamless, user-friendly websites.",
       about2: "Driven by a love for continuous learning and innovation, I'm always ready to dive into new challenges and collaborate on projects that blend creativity with functionality. ",
       birthDateTitle: "Birthday",
       birthDate: "20.10.1997",
@@ -85,10 +85,10 @@ export const Data = {
     ],
     projectsTitle: "Projects",
     projects: [
-      {title:"Pizza Delivery Site", image:Images.projects.pizzaProject ,description:"Imagine a pizza ordering platform where customers can choose various extra toppings, the thickness of the dough, and the size of their pizza. After entering the customer's name and special notes, the quantity of the order is determined and placed. In the final stage, customers are presented with a detailed summary of their order.", skills:["react", "axios", "Yup", "router"], github:"GitHUB", view:"View Site", url:"https://workintech.com.tr/" },
+      {title:"Pizza Delivery Site", image:Images.projects.pizzaProject ,description:"Imagine a pizza ordering platform where customers can choose various extra toppings, the thickness of the dough, and the size of their pizza. After entering the customer's name and special notes, the quantity of the order is determined and placed. In the final stage, customers are presented with a detailed summary of their order.", skills:["react", "axios", "Yup", "router"], github:"github", view:"View Site", url:"https://workintech.com.tr/" },
       {title:"Fav Movie Watchlist" ,  image:Images.projects.movieProject , description: "Movies to add to your watchlist... This list allows you to add and remove selected movies at your convenience. Thus, when deciding what to watch or when you have time, you can choose from your curated collection of films. Your list will always be waiting for you to dive into a new adventure at any moment."
-    ,  skills: ["react" ,"redux" ,"router" ,"axios"], github:"GitHUB", view:"View Site", url:"https://workintech.com.tr/" }
-      ,{title:"Netflix Clone", image:Images.projects.netflixClone, description:"Netflix.v2", skills: ["react" ,"redux" ,"router" ,"axios"], github:"GitHUB", view:"View Site", url:"https://workintech.com.tr/"   }
+    ,  skills: ["react" ,"redux" ,"router" ,"axios"], github:"github", view:"View Site", url:"https://movie-watchlist-blush.vercel.app" }
+      ,{title:"Netflix Clone", image:Images.projects.netflixClone, description:"Netflix.v2", skills: ["react" ,"redux" ,"router" ,"axios"], github:"github", view:"View Site", url:"https://netflix-clone-redux-amber.vercel.app/"   }
     ],
     footer: ["Let's work together on ", "your next project"]
   }
