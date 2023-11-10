@@ -10,14 +10,16 @@ import NavBar from "./layouts/NavBar";
 
 import { useContext } from "react";
 import { DarkModeContext } from "./context/DarkModeContext";
+import { SiteContext } from "./context/SiteContext";
 function App() {
   
   const {toggleTheme} = useContext(DarkModeContext)
   
+
   return (
-    <div className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
+    <div  className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
      
-      <SwitchBar/>
+      <SwitchBar />
       <NavBar/>
       <Hero />
       <Skills />

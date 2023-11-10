@@ -26,10 +26,10 @@ export const DarkModeContextProvider = ({children}) =>{
     };
 
     useEffect(() => {
-        const storedTheme = JSON.parse(localStorage.getItem("darkMode"));
-        if(storedTheme) {
-            setTheme(storedTheme);
-            document.body.classList.toggle('dark', storedTheme === 'DARK');
+        const themeLS = JSON.parse(localStorage.getItem("darkMode"));
+        if(themeLS) {
+            setTheme(themeLS);
+            document.body.classList.toggle('dark', themeLS === 'DARK');
         }
     }, []);
     return (

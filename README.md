@@ -76,9 +76,9 @@ Projenizi vercel'de yayınlayın.
 
 Frontend'de ne kadar yetenekli olduğunu, hünerlerini göstermek için ekstra yapabileceklerin.
 
-- [ ] Site ilk açıldığında, kullanıcın görünüm tercihini okuyup, ona göre dil ve renk temasını aktifleştirebilirsin. Kullanıcı tercihini, tarayıcı belleğine (localstorage) kaydedebilirsin.
-  - [ ] Dark Mode geliştirmesi,
-  - [ ] Türkçe/İngilizce içerik ve dil seçimi.
+- [x] Site ilk açıldığında, kullanıcın görünüm tercihini okuyup, ona göre dil ve renk temasını aktifleştirebilirsin. Kullanıcı tercihini, tarayıcı belleğine (localstorage) kaydedebilirsin.
+  - [x] Dark Mode geliştirmesi,
+  - [x] Türkçe/İngilizce içerik ve dil seçimi.
 
 | **Değerlendirme Kriteri**                                                                                      | **Puan** |
 | -------------------------------------------------------------------------------------------------------------- | -------- |

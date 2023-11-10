@@ -10,7 +10,7 @@ function SwitchBar() {
     const {theme, toggleTheme} = useContext(DarkModeContext)
   
     
-
+    
   return (
     <div className='w-[80%] pt-2 flex justify-end mx-auto'>
         <div className='flex   gap-4 items-center'>
