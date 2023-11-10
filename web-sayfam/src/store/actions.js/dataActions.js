@@ -17,12 +17,12 @@ export const fetchSuccess = (data) => {
 };
 
 export const fetchAnother = () => (dispatch) => {
-  console.log("fetchAnother started");
+  const axiosProjects = [...Data.en.projects, ...Data.tr.projects];
   dispatch(fetchLoading());
   axios
     .post(
       "https://654a3b8ae182221f8d52c75a.mockapi.io/portfolio",
-      Data.tr.projects
+      axiosProjects
     )
     .then((response) => {
       console.log("response:", response);

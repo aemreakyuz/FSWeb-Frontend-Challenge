@@ -24,7 +24,7 @@ function Projects() {
 </div>
 <div className="flex justify-between underline text-[#3730A3;] dark:text-[#8F88FF] ">
         <a  href="https://github.com/aemreakyuz">{project.github}</a>
-        <a  href="https://workintech.com.tr/">{project.view}</a>
+        <a  href={project.url}>{project.view}</a>
         </div>
       </div>
       </div>

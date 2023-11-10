@@ -21,7 +21,7 @@ function App() {
   const dispatch= useDispatch();
   useEffect(() => {
     dispatch(fetchAnother());
-}, [dispatch]);
+}, []);
   return (
     <div  className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
      
