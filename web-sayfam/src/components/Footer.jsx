@@ -1,12 +1,13 @@
 import React from "react";
 import { useContext } from "react";
 import { SiteContext } from "../context/SiteContext";
+import "../index.css"
 function Footer() {
 
   const {texts} = useContext(SiteContext)
   return <div className="w-full m-auto bg-[#F9F9F9] dark:bg-[#141414] dark:text-[#AEBCCF] py-[4rem]">
     <div className="px-[10%] ">
-      <h3 className="text-[42px] mb-[4rem]"> 
+      <h3 className=" light-text-header text-[42px] mb-[4rem] dark:text-[#AEBCCF]"> 
        {texts.footer[0]} <br/> {texts.footer[1]} 
       </h3>
       <div className="flex justify-between">

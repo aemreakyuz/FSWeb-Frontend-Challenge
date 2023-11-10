@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { SiteContext } from '../context/SiteContext'
 import { DarkModeContext } from '../context/DarkModeContext'
 import "./SwitchBar.css"
+import "../index.css"
 
 
 function SwitchBar() {
@@ -21,9 +22,9 @@ function SwitchBar() {
                 </label>
             </div>
         
-        <div className="text-[15px] text-[#777777] pt-2 font-[700]">{theme} MODE</div>
+        <div className="light-text-paragraph-bold pt-2 ">{theme} MODE</div>
         <span className='pt-2'>|</span>
-        <button className="text-[15px] text-[#777777] pt-2 font-[700]">
+        <button className="light-text-paragraph-bold pt-2 ">
     {lang === "en" ? (
         <>
             {texts.langSwitch[0]}<span onClick={toggleLang} className='text-[#4731D3]'>{texts.langSwitch[1]}</span>

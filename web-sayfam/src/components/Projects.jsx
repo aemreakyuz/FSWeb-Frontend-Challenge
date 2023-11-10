@@ -1,14 +1,15 @@
 import React from "react";
 import { useContext } from "react";
 import { SiteContext } from "../context/SiteContext";
+import "../index.css"
 
 function Projects() {
 
   const {texts} = useContext(SiteContext)
 
   return ( 
-  <div className="w-[80%]  mx-auto mb-[7rem]">
-    <h3 className="text-[48px] mb-8 dark:text-[#AEBCCF] m:text-center" >{texts.projectsTitle}</h3>
+  <div id="projects-section" className="w-[80%]  mx-auto mb-[7rem]">
+    <h3 className="text-[48px] mb-8 dark:text-[#AEBCCF] m:text-center light-text-header" >{texts.projectsTitle}</h3>
     <div className="flex justify-between flex-wrap gap-4 m:justify-center">
     {texts.projects.map((project, index)=>(
       <div  className="w-[300px] leading-[20px]">

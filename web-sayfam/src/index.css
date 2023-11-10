@@ -3,6 +3,44 @@
 @tailwind utilities;
 
 
+.light-text-header{
+  color: #1F2937;
+  font-weight: 600;
+}
+
+.light-text-header-bold{
+  color: #1F2937;
+  font-weight: 900;
+}
+.light-text-paragraph-bold{
+  color: #777777;
+  font-weight: 700;
+  font-size: 15px
+}
+.light-text-paragraph-medium{
+  color: #6B7280;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.light-text-paragraph-medium-bold{
+  color: #6B7280;
+  font-weight: 600;
+  font-size: 18px
+}
+
+.light-text-paragraph-small{
+  color: #6B7280;
+  font-weight: 400;
+font-size: 14px
+}
+
+
+.dark-text-header{
+  color: #AEBCCF;
+}
+
+
 body {
   margin: 0;
   font-family: Inter, Playfair Display;
