@@ -21,7 +21,7 @@ export const Data = {
       { image: Images.skills.reduxLogo, title: "REDUX" },
       { image: Images.skills.tailwindLogo, title: "TAILWIND" },
       { image: Images.skills.nodeLogo, title: "NODE" },
-      { image: Images.skills.vsCodeLogo, title: "VSCODE" },
+     
       { image: Images.skills.figmaLogo, title: "FIGMA" },
     ],
     profile: {
@@ -79,7 +79,7 @@ export const Data = {
       { image: Images.skills.reduxLogo, title: "REDUX" },
       { image: Images.skills.nodeLogo, title: "NODE" },
       {image: Images.skills.tailwindLogo, title: "TAILWIND"},
-      { image: Images.skills.vsCodeLogo, title: "VSCODE" },
+     
       { image: Images.skills.figmaLogo, title: "FIGMA" },
       
     ],
