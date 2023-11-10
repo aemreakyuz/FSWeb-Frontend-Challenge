@@ -27,20 +27,16 @@ function NavBar() {
           E
         </span>
       </div>
-      <div className={`flex gap-16 ${theme === "DARK" ? "text-[]" : ""}`}>
-        <button className={` ${theme === "DARK" ? "text-[#6B7280]" : ""}`}>
-          {texts.nav.skills}
-        </button>
-        <button className={` ${theme === "DARK" ? "text-[#6B7280]" : ""}`}>
-          {texts.nav.projects}
-        </button>
-        <button
-          className={`border-2 py-[0.75rem] px-[2rem] rounded-md text-indigo-800 border-indigo-800 ${
-            theme === "DARK" ? "bg-white text-[#3730A3]" : ""
-          }`}
+      <div className="flex gap-16">
+        <button className="dark:text-[#6B7280]">{texts.nav.skills}</button>
+        <button className="dark:text-[#6B7280]">{texts.nav.projects}</button>
+        <a
+          href="mailto:aemreakyuz@gmail.com"
+          className="border-2 py-[0.75rem] px-[2rem] rounded-md hover:bg-indigo-800 hover:text-[#E1E1FF] text-indigo-800 border-indigo-800 dark:bg-white dark:text-[#3730A3] dark:hover:bg-indigo-800 dark:hover:text-[#E1E1FF]
+          "
         >
           {texts.nav.hire}
-        </button>
+        </a>
       </div>
     </div>
   );

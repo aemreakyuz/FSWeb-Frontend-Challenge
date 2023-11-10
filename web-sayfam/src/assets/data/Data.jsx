@@ -77,9 +77,10 @@ export const Data = {
       { image: Images.skills.reactLogo, title: "REACT" },
       { image: Images.skills.reduxLogo, title: "REDUX" },
       { image: Images.skills.nodeLogo, title: "NODE" },
+      {image: Images.skills.tailwindLogo, title: "TAILWIND"},
       { image: Images.skills.vsCodeLogo, title: "VSCODE" },
       { image: Images.skills.figmaLogo, title: "FIGMA" },
-      {image: Images.skills.tailwindLogo, title: "TAILWIND"}
+      
     ],
     projectsTitle: "Projects",
     projects: [

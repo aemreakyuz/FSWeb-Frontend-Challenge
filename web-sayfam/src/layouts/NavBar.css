@@ -14,3 +14,10 @@
     font-weight: 600;
     color: #7B61FF;
 }
+
+.button-hire{
+    border: 2px solid #3730A3;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    color:#E1E1FF
+}

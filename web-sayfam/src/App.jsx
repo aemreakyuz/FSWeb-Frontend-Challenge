@@ -8,13 +8,14 @@ import Footer from "./components/Footer";
 import SwitchBar from "./components/SwitchBar";
 import NavBar from "./layouts/NavBar";
 
-
-
+import { useContext } from "react";
+import { DarkModeContext } from "./context/DarkModeContext";
 function App() {
   
+  const {toggleTheme} = useContext(DarkModeContext)
   
   return (
-    <div className={`w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
+    <div className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
      
       <SwitchBar/>
       <NavBar/>
