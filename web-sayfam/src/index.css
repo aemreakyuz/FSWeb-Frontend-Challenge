@@ -2,16 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+.button-light{
+  border: 2px solid #3730A3;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  color: #3730A3
+}
 
+
+.button-hire{
+  border: 2px solid #3730A3;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  color:#E1E1FF
+}
 .light-text-header{
   color: #1F2937;
   font-weight: 600;
 }
 
+
 .light-text-header-bold{
   color: #1F2937;
   font-weight: 900;
 }
+.light-text-header-colored{
+  color:#4338CA;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .light-text-paragraph-bold{
   color: #777777;
   font-weight: 700;
@@ -39,6 +59,7 @@ font-size: 14px
 .dark-text-header{
   color: #AEBCCF;
 }
+
 
 
 body {

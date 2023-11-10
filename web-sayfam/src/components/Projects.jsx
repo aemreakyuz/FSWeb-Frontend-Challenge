@@ -13,20 +13,18 @@ function Projects() {
     <div className="flex justify-between flex-wrap gap-4 m:justify-center">
     {texts.projects.map((project, index)=>(
       <div  className="w-[300px] leading-[20px]">
-      <img  src={project.image} alt={project.title}  key={index}/>
+      <img  className="h-[180px]" src={project.image} alt={project.title}  key={index}/>
       <div className=""> 
-        <a href={project.url}  key={index} className="text-[30px] dark:text-[#CFCBFF] py-4 inline-flex">{project.title} </a>
+        <a href={project.url}  key={index} className="light-text-header-colored dark:text-[#CFCBFF] py-4 inline-flex">{project.title} </a>
         <p className="mb-8">{project.description}</p>
-        <div className="flex gap-4 mb-8 w-[300px] flex-wrap">
+        <div className="flex gap-4 mb-8 w-[300px]  flex-wrap">
         {project.skills.map((skill, index) => (
-  <span className="flex-row px-[18px] py-[6px] rounded border-solid border-2 dark:border-[#8F88FF] dark:bg-[#383838]" key={index}>{skill}</span>
+  <span className="flex-row px-[18px] py-[6px] rounded border-solid border-2 border-[#3730A3;] text-[#3730A3] dark:border-[#8F88FF] dark:bg-[#383838] dark:text-[#8F88FF]" key={index}>{skill}</span>
 ))}
 </div>
-<div className="flex justify-between underline dark:text-[#8F88FF] ">
+<div className="flex justify-between underline text-[#3730A3;] dark:text-[#8F88FF] ">
         <a  href="https://github.com/aemreakyuz">{project.github}</a>
         <a  href="https://workintech.com.tr/">{project.view}</a>
-
-
         </div>
       </div>
       </div>

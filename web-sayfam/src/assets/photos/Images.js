@@ -13,7 +13,7 @@ import tailwindLogo from "./skills/tailwindLogo.png";
 
 import pizzaProject from "./projects/pizzaProject.png";
 import movieProject from "./projects/movieProject.png";
-import netflixClone from "./projects/diaryProject.png";
+import netflixClone from "./projects/netflixProject.png";
 
 import githubLogo from "./socials/github.svg";
 import linkedinLogo from "./socials/LinkedIn.svg";

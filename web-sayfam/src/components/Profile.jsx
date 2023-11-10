@@ -18,7 +18,7 @@ function Profile() {
 
    
    <div className="flex-column  ">
-   <h3 className="text-[30px] mb-8 mt-4 dark:text-[#B7AAFF] ">{texts.profile.title}</h3>
+   <h3 className="light-text-header-colored mb-8 mt-4 dark:text-[#B7AAFF] ">{texts.profile.title}</h3>
    <div className="flex leading-[36px] ">
    <div className="font-semibold  mr-[5rem] ">
    
@@ -29,7 +29,7 @@ function Profile() {
 
 
    </div>
-   <div className="light-text-paragraph-medium">
+   <div className="light-text-paragraph-medium dark:text-white">
     <p>{texts.profile.birthDate}</p>
     <p>{texts.profile.location}</p>
     <p>{texts.profile.edu}</p>
@@ -38,10 +38,10 @@ function Profile() {
    </div>
    </div>
    <div className="w-[50%] m:w-screen leading-[27px]">
-    <h3 className="text-[30px]  mb-8 mt-4  dark:text-[#B7AAFF]">{texts.profile.aboutTitle}</h3>
-    <p className="light-text-paragraph-medium">{texts.profile.about1}</p>
+    <h3 className="light-text-header-colored  mb-8 mt-4  dark:text-[#B7AAFF]">{texts.profile.aboutTitle}</h3>
+    <p className="light-text-paragraph-medium dark:text-white">{texts.profile.about1}</p>
     <div className="h-[2rem] "/>
-    <p className="light-text-paragraph-medium">{texts.profile.about2}</p>
+    <p className="light-text-paragraph-medium dark:text-white">{texts.profile.about2}</p>
    </div>
    </div>
 
