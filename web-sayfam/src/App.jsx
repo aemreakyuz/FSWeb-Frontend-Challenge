@@ -7,6 +7,8 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import SwitchBar from "./components/SwitchBar";
 import NavBar from "./components/NavBar";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { useContext, useEffect } from "react";
 import { DarkModeContext } from "./context/DarkModeContext";
@@ -24,7 +26,7 @@ function App() {
 }, []);
   return (
     <div  className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
-     
+     <ToastContainer />
       <SwitchBar />
       <NavBar/>
       <Hero />

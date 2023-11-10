@@ -20,5 +20,12 @@ color: #0A0A14;
 font-size: 3rem;
 font-weight: 500;
 
+}
 
+.dark-toast{
+  background: green;
+  color: #fff;
+  font-size: 20px;
+  width: 34vw;
+  padding: 30px 20px;
 }

@@ -1,5 +1,7 @@
 import { createContext, useState, useEffect } from "react";
-
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import "../App.css"
 export const DarkModeContext = createContext()
 
 export const DarkModeContextProvider = ({children}) =>{
@@ -16,6 +18,7 @@ export const DarkModeContextProvider = ({children}) =>{
 
     const toggleTheme = () => {
         const newTheme = theme === "LIGHT" ? "DARK" : "LIGHT";
+        toast("Switched Mode...", {className: `${theme === "DARK" ? "dark-toast" : "light-toast"}`})
         setTheme(newTheme);
         localStorage.setItem("darkMode", JSON.stringify(newTheme));
         if(newTheme === "DARK") {
