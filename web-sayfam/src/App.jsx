@@ -7,8 +7,8 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import SwitchBar from "./components/SwitchBar";
 import NavBar from "./components/NavBar";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import { useContext, useEffect } from "react";
 import { DarkModeContext } from "./context/DarkModeContext";
@@ -17,26 +17,27 @@ import { fetchAnother } from "./store/actions.js/dataActions";
 import { useDispatch } from "react-redux";
 
 function App() {
-  
-  const {toggleTheme} = useContext(DarkModeContext)
-  
-  const dispatch= useDispatch();
+  const { toggleTheme } = useContext(DarkModeContext);
+
+  const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchAnother());
-}, []);
+  }, []);
   return (
-    <div  className={`${toggleTheme==="DARK" ? "dark" : ""} w-full pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}>
-     <ToastContainer />
+    <div
+      className={`${
+        toggleTheme === "DARK" ? "dark" : ""
+      }  pt-2 bg-white text-[#252128]  dark:text-white dark:bg-[#252128;]`}
+    >
+      <ToastContainer />
       <SwitchBar />
-      <NavBar/>
+      <NavBar />
       <Hero />
       <Skills />
       <Profile />
       <Projects />
       <Footer />
-      </div>
-     
-   
+    </div>
   );
 }
 

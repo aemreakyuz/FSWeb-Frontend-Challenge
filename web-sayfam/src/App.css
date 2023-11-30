@@ -1,5 +1,4 @@
-
-.skills{
+.skills {
   position: relative;
   display: flex;
   gap: 2rem;
@@ -8,24 +7,15 @@
   align-items: center;
   flex-wrap: wrap;
   max-width: 100%;
-  min-height:30vh;
+  min-height: 30vh;
   padding: 0 1.2rem 0 1.2rem;
   line-height: 2.5rem;
 }
-.skills__title{
+.skills__title {
   font-family: Inter;
-text-align: center;
-margin-top: 3rem;
-color: #0A0A14;
-font-size: 3rem;
-font-weight: 500;
-
-}
-
-.dark-toast{
-  background: green;
-  color: #fff;
-  font-size: 20px;
-  width: 34vw;
-  padding: 30px 20px;
+  text-align: center;
+  margin-top: 3rem;
+  color: #0a0a14;
+  font-size: 3rem;
+  font-weight: 500;
 }
