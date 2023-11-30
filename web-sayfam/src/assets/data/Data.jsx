@@ -49,7 +49,7 @@ export const Data = {
         github: "github",
         githubUrl: "https://github.com/aemreakyuz/fsweb-s7-challenge-pizza",
         view: "View Site",
-        url: "https://workintech.com.tr/",
+        url: "https://fun-code-pizza.vercel.app/",
       },
       {
         title: "Fav Film Listesi",
@@ -123,7 +123,7 @@ export const Data = {
         github: "github",
         githubUrl: "https://github.com/aemreakyuz/fsweb-s7-challenge-pizza",
         view: "View Site",
-        url: "https://workintech.com.tr/",
+        url: "https://fun-code-pizza.vercel.app/",
       },
       {
         title: "Fav Movie Watchlist",
