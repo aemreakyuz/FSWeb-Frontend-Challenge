@@ -1,6 +1,6 @@
 import React from "react";
 import { Images } from "../assets/photos/Images";
-import "./Hero.css";
+
 import { useContext } from "react";
 import { SiteContext } from "../context/SiteContext";
 import "../index.css";
@@ -15,9 +15,6 @@ function Hero() {
       </div>
       <div className="flex gap-4 flex-wrap justify-between mt-8 m:w-full m:justify-center">
         <div className="w-[50%] m:w-screen m:text-center ">
-          <h2 className="light-text-header-bold dark:text-[#AEBCCF] text-[4.5rem] leading-[4.5rem] ">
-            {texts.hero.title[0]}
-          </h2>
           <div className="h-[2rem]" />
           <p className="light-text-paragraph-medium leading-[1.75rem] dark:text-white">
             {texts.hero.description}

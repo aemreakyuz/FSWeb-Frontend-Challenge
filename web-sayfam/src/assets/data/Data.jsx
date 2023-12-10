@@ -46,7 +46,7 @@ export const Data = {
         description:
           "Bir pizza sipariş platformu düşünün. Burada müşteriler, pizza için çeşitli ek malzemeler, hamurun kalınlığını ve pizzanın boyutunu seçebilirler. Müşteri adı ve özel notlar girildikten sonra, sipariş miktarı belirlenir ve sipariş verilir. Son aşamada ise, müşterilere siparişlerinin detaylı bir özeti sunulur.",
         skills: ["react", "axios", "Yup", "router"],
-        github: "github",
+        github: "GitHub",
         githubUrl: "https://github.com/aemreakyuz/fsweb-s7-challenge-pizza",
         view: "View Site",
         url: "https://fun-code-pizza.vercel.app/",
@@ -57,7 +57,7 @@ export const Data = {
         description:
           "İzleme listenize eklenecek filmler... Bu liste, seçtiğiniz filmleri eklemenizi ve istediğiniz zaman kaldırmanızı sağlar. Böylece, ne izlemek istediğinize karar verirken veya zamanınız olduğunda, seçkin film koleksiyonunuzdan seçim yapabilirsiniz. Her an, yeni bir maceraya dalmanız için listeniz sizi bekliyor olacak.",
         skills: ["react", "redux", "axios", "Yup", "router"],
-        github: "github",
+        github: "GitHub",
         githubUrl: "https://github.com/aemreakyuz/fsweb-s10g3-redux-watchlist",
         view: "View Site",
         url: "https://movie-watchlist-blush.vercel.app",
@@ -67,7 +67,7 @@ export const Data = {
         image: Images.projects.netflixClone,
         description: "Netflix.v2",
         skills: ["react", "redux", "contextAPI", "router", "axios"],
-        github: "github",
+        github: "GitHub",
         githubUrl: "https://github.com/aemreakyuz/netflix-clone-redux",
         view: "View Site",
         url: "https://netflix-clone-redux-amber.vercel.app/",
@@ -120,7 +120,7 @@ export const Data = {
         description:
           "Imagine a pizza ordering platform where customers can choose various extra toppings, the thickness of the dough, and the size of their pizza. After entering the customer's name and special notes, the quantity of the order is determined and placed. In the final stage, customers are presented with a detailed summary of their order.",
         skills: ["react", "axios", "Yup", "router"],
-        github: "github",
+        github: "GitHub",
         githubUrl: "https://github.com/aemreakyuz/fsweb-s7-challenge-pizza",
         view: "View Site",
         url: "https://fun-code-pizza.vercel.app/",
@@ -131,7 +131,7 @@ export const Data = {
         description:
           "Movies to add to your watchlist... This list allows you to add and remove selected movies at your convenience. Thus, when deciding what to watch or when you have time, you can choose from your curated collection of films. Your list will always be waiting for you to dive into a new adventure at any moment.",
         skills: ["react", "redux", "router", "axios"],
-        github: "github",
+        github: "GitHub",
         githubUrl: "https://github.com/aemreakyuz/fsweb-s10g3-redux-watchlist",
         view: "View Site",
         url: "https://movie-watchlist-blush.vercel.app",
@@ -141,7 +141,7 @@ export const Data = {
         image: Images.projects.netflixClone,
         description: "Netflix.v2",
         skills: ["react", "redux", "router", "axios"],
-        github: "github",
+        github: "GitHub",
         githubUrl: "https://github.com/aemreakyuz/netflix-clone-redux",
         view: "View Site",
         url: "https://netflix-clone-redux-amber.vercel.app/",
